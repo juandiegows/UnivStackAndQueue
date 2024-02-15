@@ -1,3 +1,6 @@
+com\juandiegows\univstackandqueue\ExerciseOne.class
 com\juandiegows\univstackandqueue\model\NodeJD.class
 com\juandiegows\univstackandqueue\model\StackJD.class
-com\juandiegows\univstackandqueue\UnivStackAndQueue.class
+com\juandiegows\univstackandqueue\model\Person.class
+com\juandiegows\univstackandqueue\ExerciseTwo.class
+com\juandiegows\univstackandqueue\model\StackPersonJD.class

@@ -12,7 +12,7 @@ import java.util.Scanner;
  *
  * @author JuanDiegoWS
  */
-public class UnivStackAndQueue {
+public class ExerciseOne {
 
     public static void main(String[] args) {
         System.out.println("Welcome to aplication created by Juan Diego Mejia Maestre (JuanDiegows)");
