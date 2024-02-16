@@ -1,21 +1,10 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package com.juandiegows.univstackandqueue.model;
-
 /**
- *
  * @author JuanDiegoWS
  */
-public class StackJD{
-    
+public class StackJD {
     public NodeJD<Integer> first = null;
     
-    /**
-     * Permite insertar un dato a la pila
-     * @param value 
-     */
     public void Insert(int value){
         NodeJD<Integer> newNode = new NodeJD<>();
         newNode.value = value;
@@ -35,7 +24,7 @@ public class StackJD{
         int count = 0;
         NodeJD<Integer> currentNode = first;
         while(currentNode!= null){
-            if(currentNode.value instanceof Integer && (int)currentNode.value % 2 == 0){
+            if(currentNode.value % 2 == 0){
                 count++;
             }
             currentNode = currentNode.next;
@@ -57,3 +46,4 @@ public class StackJD{
         return sum / count;
     }
 }
+

@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
-
 package com.juandiegows.univstackandqueue;
 
 import com.juandiegows.univstackandqueue.model.StackJD;
