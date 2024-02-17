@@ -25,6 +25,7 @@ public class Test {
         queue.Insert(9);
         queue.Print();
         System.out.println("");
+        queue.DeleteByItem(7);
         queue.Print();
     }
 

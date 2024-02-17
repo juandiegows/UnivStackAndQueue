@@ -5,6 +5,7 @@
 package com.juandiegows.univstackandqueue.Stack;
 
 import com.juandiegows.univstackandqueue.model.DoublyLinkedNodeJD;
+import com.juandiegows.univstackandqueue.model.NodeJD;
 
 /**
  *
@@ -32,4 +33,33 @@ public class DoublyLinkedStack {
         }
     }
 
+        public void DeleteByItem(int index) {
+
+        DoublyLinkedNodeJD<Integer> current = first;
+        DoublyLinkedNodeJD<Integer> before = first;
+        while (current != null) {
+            if (current.value == index) {
+
+                before.next = current.next;
+            }
+            before = current;
+            current = current.next;
+
+        }
+    }
+
+    public void DeleteByPosition(int index) {
+        int i = 0;
+        DoublyLinkedNodeJD<Integer> current = first;
+        DoublyLinkedNodeJD<Integer> before = first;
+        while (current != null) {
+            if (i == index) {
+
+                before.next = current.next;
+            }
+            before = current;
+            current = current.next;
+            i++;
+        }
+    }
 }
