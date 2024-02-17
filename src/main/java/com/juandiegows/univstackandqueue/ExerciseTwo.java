@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
+
 package com.juandiegows.univstackandqueue;
 
 import com.juandiegows.univstackandqueue.model.Person;
@@ -9,14 +6,10 @@ import com.juandiegows.univstackandqueue.model.StackPersonJD;
 import java.util.Scanner;
 
 /**
- *
  * @author JuanDiegoWS
  */
 public class ExerciseTwo {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         System.out.println("Welcome to aplication created by Juan Diego Mejia Maestre (JuanDiegows)");
         System.out.println("For finish to write -1 in code");
