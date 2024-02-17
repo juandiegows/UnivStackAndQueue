@@ -5,7 +5,7 @@
 package com.juandiegows.univstackandqueue;
 
 
-import com.juandiegows.univstackandqueue.Stack.DoublyLinkedStack;
+import com.juandiegows.univstackandqueue.Queue.DoubleLinkedQueueJD;
 
 /**
  *
@@ -17,7 +17,7 @@ public class Test {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        DoublyLinkedStack queue = new DoublyLinkedStack();
+        DoubleLinkedQueueJD queue = new DoubleLinkedQueueJD();
         queue.Insert(4);
         queue.Insert(6);
         queue.Insert(7);

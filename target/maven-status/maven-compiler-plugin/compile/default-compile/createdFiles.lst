@@ -1,3 +1,4 @@
+com\juandiegows\univstackandqueue\Stack\DoublyLinkedStackJD.class
 com\juandiegows\univstackandqueue\model\NodeJD.class
 com\juandiegows\univstackandqueue\Test.class
 com\juandiegows\univstackandqueue\model\Person.class
@@ -6,5 +7,5 @@ com\juandiegows\univstackandqueue\model\DoublyLinkedNodeJD.class
 com\juandiegows\univstackandqueue\Queue\QueueJD.class
 com\juandiegows\univstackandqueue\Stack\StackJD.class
 com\juandiegows\univstackandqueue\Stack\StackPersonJD.class
-com\juandiegows\univstackandqueue\Stack\DoublyLinkedStack.class
 com\juandiegows\univstackandqueue\ExerciseOne.class
+com\juandiegows\univstackandqueue\Queue\DoubleLinkedQueueJD.class
