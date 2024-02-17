@@ -1,4 +1,7 @@
-package com.juandiegows.univstackandqueue.model;
+package com.juandiegows.univstackandqueue.Stack;
+
+import com.juandiegows.univstackandqueue.model.NodeJD;
+
 /**
  * @author JuanDiegoWS
  */

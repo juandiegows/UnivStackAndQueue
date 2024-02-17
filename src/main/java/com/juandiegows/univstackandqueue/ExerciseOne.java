@@ -1,6 +1,6 @@
 package com.juandiegows.univstackandqueue;
 
-import com.juandiegows.univstackandqueue.model.StackJD;
+import com.juandiegows.univstackandqueue.Stack.StackJD;
 import java.text.DecimalFormat;
 import java.util.Scanner;
 

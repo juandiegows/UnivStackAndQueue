@@ -2,7 +2,7 @@
 package com.juandiegows.univstackandqueue;
 
 import com.juandiegows.univstackandqueue.model.Person;
-import com.juandiegows.univstackandqueue.model.StackPersonJD;
+import com.juandiegows.univstackandqueue.Stack.StackPersonJD;
 import java.util.Scanner;
 
 /**

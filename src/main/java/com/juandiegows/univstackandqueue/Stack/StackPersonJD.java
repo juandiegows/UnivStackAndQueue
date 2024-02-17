@@ -1,5 +1,8 @@
 
-package com.juandiegows.univstackandqueue.model;
+package com.juandiegows.univstackandqueue.Stack;
+
+import com.juandiegows.univstackandqueue.model.NodeJD;
+import com.juandiegows.univstackandqueue.model.Person;
 
 /**
  *

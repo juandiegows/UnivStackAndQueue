@@ -4,7 +4,8 @@
  */
 package com.juandiegows.univstackandqueue;
 
-import com.juandiegows.univstackandqueue.model.QueueJD;
+
+import com.juandiegows.univstackandqueue.Stack.DoublyLinkedStack;
 
 /**
  *
@@ -16,15 +17,13 @@ public class Test {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        QueueJD queue = new QueueJD();
+        DoublyLinkedStack queue = new DoublyLinkedStack();
         queue.Insert(4);
         queue.Insert(6);
         queue.Insert(7);
         queue.Insert(8);
         queue.Insert(9);
         queue.Print();
-        queue.DeleteByItem(6);
-        queue.DeleteByPosition(2);
         System.out.println("");
         queue.Print();
     }
